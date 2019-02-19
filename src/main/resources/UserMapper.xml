@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapper namespace="com.cloud.mapper.UserMapper">
+    <select id="getUserInfoById" resultType="com.cloud.bean.UserInfo">
+        select * from userInfo where id = ?
+    </select>
+</mapper>
